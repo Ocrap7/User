@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+=",
+        "command": "-increaseSearchEditorContextLines",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+=",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "alt+-",
+        "command": "-decreaseSearchEditorContextLines",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+-",
+        "command": "editor.action.fontZoomOut"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "d.dubCompiler": "dmd.EXE",
+    "d.stdlibPath": "auto",
+    "d.dubPath": "C:\\D\\dmd2\\windows\\bin\\dub.exe",
+    "d.servedPath": "C:\\Users\\olive\\AppData\\Roaming\\code-d\\bin\\serve-d.exe",
+    "files.autoSave": "afterDelay",
+    "cmake.configureOnOpen": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "on",
+    "vim.useSystemClipboard": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "type": "#FFD700",
+            "enum": "#FFD700",
+            "struct": "#FFD700",
+            "union": "#FFD700",
+            "keyword": "#569CD6",
+            "variable": "#BDB76B",
+            "property": "#BDB76B",
+            "parameter": "#BDB76B",
+            "namespace": "#b5cea8",
+            "method": "#FF8000",
+            "function": "#FF8000",
+            "*.controlFlow": "#D8A0DF",
+            "macro": "#c76fbe"
+        }
+    },
+    "workbench.colorTheme": "Visual Studio Dark"
+}
