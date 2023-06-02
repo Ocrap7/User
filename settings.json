@@ -13,6 +13,91 @@
     "editor.wordWrap": "on",
     "vim.useSystemClipboard": true,
     "security.workspace.trust.untrustedFiles": "open",
+    "editor.tokenColorCustomizations": {
+        "types": "#FFD700",
+        "functions": "#FF8000",
+        "variables": "#BDB76B",
+        "keywords": "#569CD6",
+        "textMateRules": [
+            {
+                "scope": "keyword.operator.new",
+                "settings": {
+                    "foreground": "#D8A0DF",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.operator.logical",
+                "settings": {
+                    "foreground": "#D8A0DF",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.operator.type",
+                "settings": {
+                    "foreground": "#569CD6",
+                }
+            },
+            {
+                "scope": "support.other.namespace",
+                "settings": {
+                    "foreground": "#b5cea8",
+                }
+            },
+            {
+                "scope": "support.constant",
+                "settings": {
+                    "foreground": "#aca761",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "constant.other",
+                "settings": {
+                    "foreground": "#aca761",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.goto-label",
+                "settings": {
+                    "foreground": "#D8A0DF",
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#D8A0DF",
+                }
+            },
+            {
+                "scope": "support.other",
+                "settings": {
+                    "foreground": "#aca761",
+                }
+            },
+            {
+                "scope": "punctuation.separator",
+                "settings": {
+                    "foreground": "#D4D4D4",
+                }
+            },
+            {
+                "scope": "punctuation.separator",
+                "settings": {
+                    "foreground": "#D4D4D4",
+                }
+            },
+            {
+                "scope": "punctuation.definition.variable",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+        ],
+    },
     "editor.semanticTokenColorCustomizations": {
         "rules": {
             "type": "#FFD700",
